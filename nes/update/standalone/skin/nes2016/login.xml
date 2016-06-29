@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="692,568" caption="0,0,0,200" mininfo="692,568">
+    <Font name="微软雅黑" size="13" bold="false" italic="false" />
+    <Font name="微软雅黑" size="16" bold="false" italic="false" />
+    <Font name="微软雅黑" size="22" bold="false" italic="false" />
+    <Font name="微软雅黑" size="13" bold="true" italic="false" />
+    <Font name="SimSun" size="12" bold="false" italic="false" default="true" />
+    <Default name="Label" value="font=&apos;0&apos;" />
+    <Default name="Button" value="font=&apos;0&apos;" />
+    <VerticalLayout width="692" height="568">
+        <HorizontalLayout width="692" height="210" bkimage="login_01.png">
+            <HorizontalLayout />
+            <HorizontalLayout>
+                <VerticalLayout height="50">
+                    <HorizontalLayout>
+                        <control />
+                        <!-- <Button name="btnHelp" text="使用帮助" tooltip="查看使用帮助" width="60" height="28" padding="5,15,0,0" textcolor="#00E8EEE8" disabledtextcolor="#FFA7A6AA" font="0" align="center" focusedtextcolor="#00043604" />
+                        <Button name="btnAbout" text="关于软件" tooltip="显示“营养通”营养专家软件系统的信息" width="70" height="28" padding="5,15,10,0" textcolor="#00E8EEE8" disabledtextcolor="#FFA7A6AA" font="0" align="center" focusedtextcolor="#00043604" /> -->
+                        <Button name="btnMenu" width="28" height="28" padding="5,15,0,0" textcolor="#00043604" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;btn_system.png&apos; source=&apos;336,0,364,28&apos;" hotimage="file=&apos;btn_system.png&apos; source=&apos;364,0,392,28&apos;" pushedimage="file=&apos;btn_system.png&apos; source=&apos;392,0,420,28&apos;" />
+                        <Button name="cancelBtn" width="28" height="28" padding="5,15,10,0" textcolor="#00043604" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;btn_system.png&apos; source=&apos;0,0,28,28&apos;" hotimage="file=&apos;btn_system.png&apos; source=&apos;28,0,56,28&apos;" pushedimage="file=&apos;btn_system.png&apos; source=&apos;56,0,84,28&apos;" />
+                    </HorizontalLayout>
+                </VerticalLayout>
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout bkcolor="#FFFFFFFF">
+            <HorizontalLayout />
+            <Container width="510">
+                <Label text="用户名：" float="true" pos="40,80,0,0" width="70" height="30" textcolor="#00043604" disabledtextcolor="#FFA7A6AA" font="0" />
+                <Combo name="accountcombo" tooltip="请点击这里选择最近使用过的用户名" float="true" pos="120,80,0,0" width="320" height="27" focusbordercolor="#FFE8EEE8" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFE8EEE8" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" normalimage="file=&apos;login_combo.png&apos; source=&apos;28,0,56,29&apos; corner=&apos;3,3,18,3&apos;" hotimage="file=&apos;login_combo.png&apos; source=&apos;0,0,28,29&apos; corner=&apos;3,3,18,3&apos;" pushedimage="file=&apos;login_combo.png&apos; source=&apos;0,0,28,29&apos; corner=&apos;3,3,18,3&apos;" dropboxsize="0,150" itemtextpadding="2,2,2,2">
+                    <ListLabelElement />
+                    <ListLabelElement />
+                </Combo>
+                <Edit name="accountedit" tooltip="请在这里输入用户名" float="true" pos="122,82,0,0" width="295" height="23" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#00568856" disabledtextcolor="#FFA7A6AA" font="0" />
+                <Label text="用户密码：" float="true" pos="40,134,0,0" width="70" height="30" textcolor="#00043604" disabledtextcolor="#FFA7A6AA" font="0" />
+                <Edit name="pwdedit" tooltip="请在这里输入您的密码" bordersize="2" float="true" pos="120,138,0,0" width="320" height="27" bkcolor="#FFFFFFFF" bordercolor="#00DCE5EC" textpadding="4,3,4,3" textcolor="#00568856" disabledtextcolor="#FFA7A6AA" font="0" password="true" />
+                <Button name="loginBtn" text="登录" tooltip="点击这里登录系统" float="true" pos="18,238,0,0" width="150" height="35" focusbordercolor="#FFFFFFFF" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" font="3" align="center" normalimage="file=&apos;login_btn.jpg&apos; source=&apos;0,0,20,35&apos; corner=&apos;10,35,9,1&apos;" hotimage="file=&apos;login_btn.jpg&apos; source=&apos;0,0,20,35&apos; corner=&apos;10,35,9,1&apos;" pushedimage="file=&apos;login_btn.jpg&apos; source=&apos;0,0,20,35&apos; corner=&apos;10,35,9,1&apos;" focusedimage="file=&apos;login_btn.jpg&apos; corner=&apos;10,35,9,1&apos; source=&apos;40,0,60,35&apos;" disabledimage="file=&apos;login_btn.jpg&apos; source=&apos;20,0,40,35&apos; corner=&apos;10,35,9,1&apos;" />
+                <Button name="cancelBtn" text="关闭" tooltip="取消登录" float="true" pos="350,238,0,0" width="150" height="35" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" font="3" align="center" normalimage="file=&apos;login_btn.jpg&apos; corner=&apos;10,35,9,1&apos; source=&apos;0,0,20,35&apos;" hotimage="file=&apos;login_btn.jpg&apos; corner=&apos;10,35,9,1&apos; source=&apos;0,0,20,35&apos;" pushedimage="file=&apos;login_btn.jpg&apos; source=&apos;0,0,20,35&apos; corner=&apos;10,35,9,1&apos;" focusedimage="file=&apos;login_btn.jpg&apos; corner=&apos;10,35,9,1&apos; source=&apos;40,0,60,35&apos;" />
+            </Container>
+            <HorizontalLayout />
+        </HorizontalLayout>
+        <HorizontalLayout height="33" bkimage="file=&apos;login_statebar.jpg&apos; corner=&apos;4,4,4,4&apos; ">
+            <Label name="lbl_bottom_status" text="正在检查证书正在检查证书正在检查证书" padding="10,4,0,0" minwidth="400" textcolor="#00568856" disabledtextcolor="#FFA7A6AA" font="0" />
+            <control />
+            <!-- <Button name="btnSetup" text="{u}{l}连接设置{/l}{/u}" tooltip="设置要连接的服务器参数" width="60" padding="0,7,0,0" textcolor="#00568856" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="center" focusedtextcolor="#00043604" /> -->
+            <Label name="lbl_version" text="全功能网络版 v4.0.1.160101" width="180" padding="10,4,0,0" textcolor="#00568856" disabledtextcolor="#FFA7A6AA" font="0" align="right" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

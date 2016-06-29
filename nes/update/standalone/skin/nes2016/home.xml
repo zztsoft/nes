@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,600" caption="0,0,0,60" sizebox="4,4,4,4" mininfo="800,600" defaultfontcolor="#043604">
+    <Font id="0" name="微软雅黑" size="13" bold="false" italic="false" default="true" />
+    <Font id="1" name="微软雅黑" size="16" bold="false" italic="false" />
+    <Font id="2" name="微软雅黑" size="22" bold="false" italic="false" />
+    <Font id="3" name="微软雅黑" size="13" bold="true" italic="false" />
+    <Font id="4" name="微软雅黑" size="16" bold="true" italic="false" />
+    <Default name="Button" value="font='0'" />
+    <Default name="Button" value="fadedelta=&quot;25&quot;" />
+    <Default name="Label" value="font='0'" />
+    <VerticalLayout bkcolor="#FF95B795" bkcolor2="#FFE8EEE8" bkcolor3="#FF295E29">
+        <HorizontalLayout height="50">
+            <control bkimage="nes_logo.png" width="251" height="42" />
+            <control />
+            <HorizontalLayout width="250">
+                <!-- <control /> -->
+                <!-- <include source="home_head.xml" /> -->
+                <control name="user_head" bkimage="user_head_m.png" width="35" height="35" padding="5,5,0,0" />
+                <!-- <Label name="lbUser" height="23" text="Yiliang" textcolor="#ffffff" align="right" font="1" padding="3,3,3,3" /> -->
+                <Button name="userpop" maxwidth="170" height="34" text="绕只用(营养师)" bkimage="file='userpop.png' source='0,0,34,34' corner='1,1,32,33'" hotimage="file='userpop.png' source='34,0,68,34' corner='1,1,32,33'" textpadding="2,0,34,0" textcolor="#FFFFFFFF" hottextcolor="#FF18581f" focusedtextcolor="#FF18581f" padding="5,5,0,0" />
+                <!-- 
+                    <Label text="|" width="5" height="23" textcolor="#ffffff" align="right" font="1" padding="3,3,3,3" /> -->
+               <!--  <Button name="btnHelp" width="23" height="23" normalimage="help_icon.png" hotimage="help_icon_h.png" pushedimage="help_icon_h.png" focusedimage="help_icon_h.png" padding="3,10,3,3" /> -->
+               <Button name="btnMenu" width="28" height="28" padding="3,5,0,0" textcolor="#00043604" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;btn_system.png&apos; source=&apos;336,0,364,28&apos;" hotimage="file=&apos;btn_system.png&apos; source=&apos;364,0,392,28&apos;" pushedimage="file=&apos;btn_system.png&apos; source=&apos;392,0,420,28&apos;" />
+            </HorizontalLayout>
+            <HorizontalLayout width="115">
+                <control maxwidth="1" height="30" bkimage="file='btn_system.png' source='420,0,421,30'" padding="3,5,0,0" />
+                <Button name="minbtn" maxwidth="28" maxheight="28" normalimage="file='btn_system.png' source='84,0,112,28' mask='#FFFF00FF'" hotimage="file='btn_system.png' source='112,0,140,28' mask='#FFFF00FF'" pushedimage="file='btn_system.png' source='140,0,168,28' mask='#FFFF00FF'" padding="3,5,0,0" />
+                <Button name="maxbtn" visible="false" maxwidth="28" maxheight="28" normalimage="file='btn_system.png' source='168,0,196,28' mask='#FFFF00FF'" hotimage="file='btn_system.png' source='196,0,224,28' mask='#FFFF00FF'" pushedimage="file='btn_system.png' source='224,0,252,28' mask='#FFFF00FF'" padding="3,5,0,0" />
+                <Button name="restorebtn" maxwidth="28" maxheight="28" normalimage="file='btn_system.png' source='252,0,280,28' mask='#FFFF00FF'" hotimage="file='btn_system.png' source='280,0,308,28' mask='#FFFF00FF'" pushedimage="file='btn_system.png' source='308,0,336,28' mask='#FFFF00FF'" padding="3,5,0,0" />
+                <Button name="closebtn1" maxwidth="28" maxheight="28" normalimage="file=&apos;btn_system.png&apos; source=&apos;0,0,28,28&apos;" hotimage="file=&apos;btn_system.png&apos; source=&apos;28,0,56,28&apos;" pushedimage="file=&apos;btn_system.png&apos; source=&apos;56,0,84,28&apos;" padding="3,5,0,0" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout bkcolor="#00000001" inset="80,50,80,50">
+            <TileLayout name="IconsList" />
+        </HorizontalLayout>
+        <HorizontalLayout height="33">
+            <!-- 状态栏 -->
+            <Label name="lbl_bottom_status" minwidth="400" text="正在检查证书正在检查证书正在检查证书" padding="10,4,0,0" textcolor="#568856" font="0" />
+            <control />
+            <!-- <Button name="btnSetup" width="60" text="{u}{l}连接设置{/l}{/u}" showhtml="true" tooltip="设置要连接的服务器参数" font="0" padding="0,7,0,0" textcolor="#568856" /> -->
+            <!--  <Button width="60" text="{u}{l}检查更新{/l}{/u}" showhtml="true" tooltip="检查更新" font="0" padding="0,7,0,0" textcolor="#568856" /> -->
+            <Label name="lbl_date" width="280" text="2016-5-4" padding="10,4,0,0" align="right" textcolor="#568856" font="0" />
+            <Label name="lbl_version" width="180" text="全功能网络版 v4.0.1.160101" padding="10,4,0,0" align="right" textcolor="#568856" font="0" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

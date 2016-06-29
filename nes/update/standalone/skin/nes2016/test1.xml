@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="398,256" sizebox="4,4,4,4" caption="0,0,0,32">
+	<VerticalLayout>
+		<HorizontalLayout height="32" bkcolor="#FFFFFFFF"> 
+			<Button name="closebtn" text="关闭" tooltip="取消登录" width="150" height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;login_btn.jpg&apos; corner=&apos;10,35,9,1&apos; source='0,0,20,35'" hotimage="file=&apos;login_btn.jpg&apos; corner=&apos;10,35,9,1&apos; source='0,0,20,35'" pushedimage="file=&apos;login_btn.jpg&apos; source='0,0,20,35' corner=&apos;10,35,9,1&apos;" textcolor="#FFFFFFFF" />
+		</HorizontalLayout>
+		<VerticalLayout width="400" height="400" bkcolor="#FFC0C0C0">		
+			<NativeControl name="test1" />
+		</VerticalLayout>
+	</VerticalLayout>
+</Window>

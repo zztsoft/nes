@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+    <VerticalLayout width="140" height="200">
+        <HorizontalLayout />
+        <HorizontalLayout height="140">
+            <VerticalLayout height="140" />
+            <VerticalLayout width="140" height="140" bkimage="file='home_item.png' source='0,0,56,56'corner='3,3,3,3'">
+                <Button name="btnopenapp" menu="true" float="true" pos="0,0,0,0" width="140" height="140" hotimage="file='home_item.png' source='56,0,112,56'corner='8,8,3,3'" pushedimage="file='home_item.png' source='56,0,112,56'corner='8,8,3,3'" focusedimage="file='home_item.png' source='56,0,112,56'corner='8,8,3,3'" />
+            </VerticalLayout>
+            <VerticalLayout height="140" />
+        </HorizontalLayout>
+        <HorizontalLayout height="40">
+            <Label name="title" float="true" pos="0,0,0,0" width="140" height="40" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" font="4" align="center" enabledeffect="false" enabledshadow="false" enabledstroke="true" strokecolor="#4BFFFFFF" />
+        </HorizontalLayout>                
+    </VerticalLayout>
+</Window>
